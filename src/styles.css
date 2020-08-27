@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color:#513779;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 2%;
+    background-color: #967ECB;
+    height: 100vh;
+    border-radius: 43px;
+    padding: 0.5%;
+}
+
