@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
-import { HeaderComponent } from './header/header.component'
+import { HeaderModule } from './header/header.module';
+import { TesteComponent } from './teste/teste.component';
+
 
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
     MatButtonModule,
+    HeaderModule,
+        
   ],
   providers: [],
   bootstrap: [AppComponent],

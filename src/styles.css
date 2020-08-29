@@ -5,20 +5,36 @@ body {
   height: 100%;
 }
 body {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-color:#513779;
+  background-color: #000000;
 }
 * {
-    padding: 0;
-    margin: 0;
-}
-.container{
-    width: 92%;
-    margin: 0 auto;
-    margin-top: 2%;
-    background-color: #967ECB;
-    height: 100vh;
-    border-radius: 43px;
-    padding: 0.5%;
+  font-family: roboto;
+  padding: 0;
+  margin: 0;
 }
 
+.serie-item {
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 2%;
+  background-color: #141414;
+  height: 430px;
+  border-radius: 20px;
+  padding: 0.5%;  
+  color: azure;
+  padding: 20px;
+}
+
+
+.serie-item h1 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: azure;
+}
+.serie-item img{
+  padding-right: 12px;
+  float: left;
+  width: 286.66666666666663px;
+  height: 430px;
+  border-radius: 10px;
+}
